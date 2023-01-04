@@ -1,0 +1,644 @@
+%merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+%Control: key (0)
+%Control: author (0) dotless jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (0) verbatim
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{33}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{http://dx.doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Wakatsuki}\ \emph {et~al.}(2017)\citenamefont
+  {Wakatsuki}, \citenamefont {Saito}, \citenamefont {Hoshino}, \citenamefont
+  {Itahashi}, \citenamefont {Ideue}, \citenamefont {Ezawa}, \citenamefont
+  {Iwasa},\ and\ \citenamefont {Nagaosa}}]{Wakatsuki2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ryohei}\ \bibnamefont
+  {Wakatsuki}}, \bibinfo {author} {\bibfnamefont {Yu}~\bibnamefont {Saito}},
+  \bibinfo {author} {\bibfnamefont {Shintaro}\ \bibnamefont {Hoshino}},
+  \bibinfo {author} {\bibfnamefont {Yuki~M.}\ \bibnamefont {Itahashi}},
+  \bibinfo {author} {\bibfnamefont {Toshiya}\ \bibnamefont {Ideue}}, \bibinfo
+  {author} {\bibfnamefont {Motohiko}\ \bibnamefont {Ezawa}}, \bibinfo {author}
+  {\bibfnamefont {Yoshihiro}\ \bibnamefont {Iwasa}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Naoto}\ \bibnamefont {Nagaosa}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Nonreciprocal charge transport in
+  noncentrosymmetric superconductors},}\ }\href {\doibase
+  10.1126/sciadv.1602390} {\bibfield  {journal} {\bibinfo  {journal} {Science
+  Advances}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages} {e1602390}
+  (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/https://www.science.org/doi/pdf/10.1126/sciadv.1602390}
+  {https://www.science.org/doi/pdf/10.1126/sciadv.1602390} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Yasuda}\ \emph {et~al.}(2019)\citenamefont {Yasuda},
+  \citenamefont {Yasuda}, \citenamefont {Liang}, \citenamefont {Yoshimi},
+  \citenamefont {Tsukazaki}, \citenamefont {Takahashi}, \citenamefont
+  {Nagaosa}, \citenamefont {Kawasaki},\ and\ \citenamefont
+  {Tokura}}]{Yasuda2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kenji}\ \bibnamefont
+  {Yasuda}}, \bibinfo {author} {\bibfnamefont {Hironori}\ \bibnamefont
+  {Yasuda}}, \bibinfo {author} {\bibfnamefont {Tian}\ \bibnamefont {Liang}},
+  \bibinfo {author} {\bibfnamefont {Ryutaro}\ \bibnamefont {Yoshimi}}, \bibinfo
+  {author} {\bibfnamefont {Atsushi}\ \bibnamefont {Tsukazaki}}, \bibinfo
+  {author} {\bibfnamefont {Kei~S.}\ \bibnamefont {Takahashi}}, \bibinfo
+  {author} {\bibfnamefont {Naoto}\ \bibnamefont {Nagaosa}}, \bibinfo {author}
+  {\bibfnamefont {Masashi}\ \bibnamefont {Kawasaki}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Yoshinori}\ \bibnamefont {Tokura}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Nonreciprocal charge transport at topological
+  insulator/superconductor interface},}\ }\href {\doibase
+  10.1038/s41467-019-10658-3} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Communications}\ }\textbf {\bibinfo {volume} {10}},\ \bibinfo {pages}
+  {2734} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ando}\ \emph {et~al.}(2020)\citenamefont {Ando},
+  \citenamefont {Miyasaka}, \citenamefont {Li}, \citenamefont {Ishizuka},
+  \citenamefont {Arakawa}, \citenamefont {Shiota}, \citenamefont {Moriyama},
+  \citenamefont {Yanase},\ and\ \citenamefont {Ono}}]{Ando2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Fuyuki}\ \bibnamefont
+  {Ando}}, \bibinfo {author} {\bibfnamefont {Yuta}\ \bibnamefont {Miyasaka}},
+  \bibinfo {author} {\bibfnamefont {Tian}\ \bibnamefont {Li}}, \bibinfo
+  {author} {\bibfnamefont {Jun}\ \bibnamefont {Ishizuka}}, \bibinfo {author}
+  {\bibfnamefont {Tomonori}\ \bibnamefont {Arakawa}}, \bibinfo {author}
+  {\bibfnamefont {Yoichi}\ \bibnamefont {Shiota}}, \bibinfo {author}
+  {\bibfnamefont {Takahiro}\ \bibnamefont {Moriyama}}, \bibinfo {author}
+  {\bibfnamefont {Youichi}\ \bibnamefont {Yanase}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Teruo}\ \bibnamefont {Ono}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {Observation of superconducting diode effect},}\ }\href
+  {\doibase 10.1038/s41586-020-2590-4} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature}\ }\textbf {\bibinfo {volume} {584}},\ \bibinfo {pages}
+  {373--376} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pal1}\ \emph {et~al.}(2021)\citenamefont {Pal1},
+  \citenamefont {Chakraborty}, \citenamefont {Sivakumar}, \citenamefont
+  {Davydova}, \citenamefont {Gopi}, \citenamefont {Pandeya}, \citenamefont
+  {Krieger}, \citenamefont {Zhang}, \citenamefont {Date}, \citenamefont {Ju},
+  \citenamefont {Yuan}, \citenamefont {Schröter}, \citenamefont {Fu},\ and\
+  \citenamefont {Parkin}}]{Pal2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Banabir}\ \bibnamefont
+  {Pal1}}, \bibinfo {author} {\bibfnamefont {Anirban}\ \bibnamefont
+  {Chakraborty}}, \bibinfo {author} {\bibfnamefont {Pranava~K.}\ \bibnamefont
+  {Sivakumar}}, \bibinfo {author} {\bibfnamefont {Margarita}\ \bibnamefont
+  {Davydova}}, \bibinfo {author} {\bibfnamefont {Ajesh~K.}\ \bibnamefont
+  {Gopi}}, \bibinfo {author} {\bibfnamefont {Avanindra~K.}\ \bibnamefont
+  {Pandeya}}, \bibinfo {author} {\bibfnamefont {Jonas~A.}\ \bibnamefont
+  {Krieger}}, \bibinfo {author} {\bibfnamefont {Yang}\ \bibnamefont {Zhang}},
+  \bibinfo {author} {\bibfnamefont {Mihir}\ \bibnamefont {Date}}, \bibinfo
+  {author} {\bibfnamefont {Sailong}\ \bibnamefont {Ju}}, \bibinfo {author}
+  {\bibfnamefont {Noah}\ \bibnamefont {Yuan}}, \bibinfo {author} {\bibfnamefont
+  {Niels B.~M.}\ \bibnamefont {Schröter}}, \bibinfo {author} {\bibfnamefont
+  {Liang}\ \bibnamefont {Fu}}, \ and\ \bibinfo {author} {\bibfnamefont {Stuart
+  S.~P.}\ \bibnamefont {Parkin}},\ }\bibfield  {title} {\enquote {\bibinfo
+  {title} {Josephson diode effect from cooper pair momentum in a topological
+  semimetal},}\ }\href {\doibase 10.48550/ARXIV.2112.11285} {\  (\bibinfo
+  {year} {2021}),\ 10.48550/ARXIV.2112.11285}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lyu}\ \emph {et~al.}(2021)\citenamefont {Lyu},
+  \citenamefont {Jiang}, \citenamefont {Wang}, \citenamefont {Xiao},
+  \citenamefont {Dong}, \citenamefont {Chen}, \citenamefont {Milo{\v
+  s}evi{\'c}}, \citenamefont {Wang}, \citenamefont {Divan}, \citenamefont
+  {Pearson}, \citenamefont {Wu}, \citenamefont {Peeters},\ and\ \citenamefont
+  {Kwok}}]{Lyu2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Yang-Yang}\
+  \bibnamefont {Lyu}}, \bibinfo {author} {\bibfnamefont {Ji}~\bibnamefont
+  {Jiang}}, \bibinfo {author} {\bibfnamefont {Yong-Lei}\ \bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {Zhi-Li}\ \bibnamefont {Xiao}}, \bibinfo
+  {author} {\bibfnamefont {Sining}\ \bibnamefont {Dong}}, \bibinfo {author}
+  {\bibfnamefont {Qing-Hu}\ \bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {Milorad~V.}\ \bibnamefont {Milo{\v s}evi{\'c}}}, \bibinfo
+  {author} {\bibfnamefont {Huabing}\ \bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {Ralu}\ \bibnamefont {Divan}}, \bibinfo {author}
+  {\bibfnamefont {John~E.}\ \bibnamefont {Pearson}}, \bibinfo {author}
+  {\bibfnamefont {Peiheng}\ \bibnamefont {Wu}}, \bibinfo {author}
+  {\bibfnamefont {Francois~M.}\ \bibnamefont {Peeters}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Wai-Kwong}\ \bibnamefont {Kwok}},\ }\bibfield
+  {title} {\enquote {\bibinfo {title} {Superconducting diode effect via
+  conformal-mapped nanoholes},}\ }\href {\doibase 10.1038/s41467-021-23077-0}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature Communications}\ }\textbf
+  {\bibinfo {volume} {12}},\ \bibinfo {pages} {2703} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shin}\ \emph {et~al.}(2021)\citenamefont {Shin},
+  \citenamefont {Son}, \citenamefont {Yun}, \citenamefont {Park}, \citenamefont
+  {Zhang}, \citenamefont {Shin}, \citenamefont {Park},\ and\ \citenamefont
+  {Kim}}]{Shin2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jeacheol}\
+  \bibnamefont {Shin}}, \bibinfo {author} {\bibfnamefont {Suhan}\ \bibnamefont
+  {Son}}, \bibinfo {author} {\bibfnamefont {Jonginn}\ \bibnamefont {Yun}},
+  \bibinfo {author} {\bibfnamefont {Giung}\ \bibnamefont {Park}}, \bibinfo
+  {author} {\bibfnamefont {Kaixuan}\ \bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {Young~Jae}\ \bibnamefont {Shin}}, \bibinfo {author}
+  {\bibfnamefont {Je-Geun}\ \bibnamefont {Park}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Dohun}\ \bibnamefont {Kim}},\ }\href {\doibase
+  10.48550/ARXIV.2111.05627} {\enquote {\bibinfo {title} {Magnetic
+  proximity-induced superconducting diode effect and infinite magnetoresistance
+  in van der waals heterostructure},}\ } (\bibinfo {year} {2021})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Lin}\ \emph {et~al.}(2022)\citenamefont {Lin},
+  \citenamefont {Siriviboon}, \citenamefont {Scammell}, \citenamefont {Liu},
+  \citenamefont {Rhodes}, \citenamefont {Watanabe}, \citenamefont {Taniguchi},
+  \citenamefont {Hone}, \citenamefont {Scheurer},\ and\ \citenamefont
+  {Li}}]{Lin2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jiang-Xiazi}\
+  \bibnamefont {Lin}}, \bibinfo {author} {\bibfnamefont {Phum}\ \bibnamefont
+  {Siriviboon}}, \bibinfo {author} {\bibfnamefont {Harley~D.}\ \bibnamefont
+  {Scammell}}, \bibinfo {author} {\bibfnamefont {Song}\ \bibnamefont {Liu}},
+  \bibinfo {author} {\bibfnamefont {Daniel}\ \bibnamefont {Rhodes}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Taniguchi}}, \bibinfo {author}
+  {\bibfnamefont {James}\ \bibnamefont {Hone}}, \bibinfo {author}
+  {\bibfnamefont {Mathias~S.}\ \bibnamefont {Scheurer}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {J.~I.~A.}\ \bibnamefont {Li}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Zero-field superconducting diode effect in
+  small-twist-angle trilayer graphene},}\ }\href {\doibase
+  10.1038/s41567-022-01700-1} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Physics}\ }\textbf {\bibinfo {volume} {18}},\ \bibinfo {pages}
+  {1221--1227} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Jiang}\ \emph {et~al.}(2022)\citenamefont {Jiang},
+  \citenamefont {Milo\ifmmode \check{s}\else
+  \v{s}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}, \citenamefont {Wang},
+  \citenamefont {Xiao}, \citenamefont {Peeters},\ and\ \citenamefont
+  {Chen}}]{Jiang2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ji}~\bibnamefont
+  {Jiang}}, \bibinfo {author} {\bibfnamefont {M.V.}\ \bibnamefont {Milo\ifmmode
+  \check{s}\else \v{s}\fi{}evi\ifmmode~\acute{c}\else \'{c}\fi{}}}, \bibinfo
+  {author} {\bibfnamefont {Yong-Lei}\ \bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {Zhi-Li}\ \bibnamefont {Xiao}}, \bibinfo {author}
+  {\bibfnamefont {F.M.}\ \bibnamefont {Peeters}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Qing-Hu}\ \bibnamefont {Chen}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Field-free superconducting diode in a
+  magnetically nanostructured superconductor},}\ }\href {\doibase
+  10.1103/PhysRevApplied.18.034064} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Applied}\ }\textbf {\bibinfo {volume} {18}},\ \bibinfo {pages}
+  {034064} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bauriedl}\ \emph {et~al.}(2022)\citenamefont
+  {Bauriedl}, \citenamefont {B{\"a}uml}, \citenamefont {Fuchs}, \citenamefont
+  {Baumgartner}, \citenamefont {Paulik}, \citenamefont {Bauer}, \citenamefont
+  {Lin}, \citenamefont {Lupton}, \citenamefont {Taniguchi}, \citenamefont
+  {Watanabe}, \citenamefont {Strunk},\ and\ \citenamefont
+  {Paradiso}}]{Bauriedl2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Lorenz}\ \bibnamefont
+  {Bauriedl}}, \bibinfo {author} {\bibfnamefont {Christian}\ \bibnamefont
+  {B{\"a}uml}}, \bibinfo {author} {\bibfnamefont {Lorenz}\ \bibnamefont
+  {Fuchs}}, \bibinfo {author} {\bibfnamefont {Christian}\ \bibnamefont
+  {Baumgartner}}, \bibinfo {author} {\bibfnamefont {Nicolas}\ \bibnamefont
+  {Paulik}}, \bibinfo {author} {\bibfnamefont {Jonas~M.}\ \bibnamefont
+  {Bauer}}, \bibinfo {author} {\bibfnamefont {Kai-Qiang}\ \bibnamefont {Lin}},
+  \bibinfo {author} {\bibfnamefont {John~M.}\ \bibnamefont {Lupton}}, \bibinfo
+  {author} {\bibfnamefont {Takashi}\ \bibnamefont {Taniguchi}}, \bibinfo
+  {author} {\bibfnamefont {Kenji}\ \bibnamefont {Watanabe}}, \bibinfo {author}
+  {\bibfnamefont {Christoph}\ \bibnamefont {Strunk}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Nicola}\ \bibnamefont {Paradiso}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Supercurrent diode effect and magnetochiral
+  anisotropy in few-layer nbse2},}\ }\href {\doibase
+  10.1038/s41467-022-31954-5} {\bibfield  {journal} {\bibinfo  {journal}
+  {Nature Communications}\ }\textbf {\bibinfo {volume} {13}},\ \bibinfo {pages}
+  {4266} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Baumgartner}\ \emph {et~al.}(2022)\citenamefont
+  {Baumgartner}, \citenamefont {Fuchs}, \citenamefont {Costa}, \citenamefont
+  {Reinhardt}, \citenamefont {Gronin}, \citenamefont {Gardner}, \citenamefont
+  {Lindemann}, \citenamefont {Manfra}, \citenamefont {Faria~Junior},
+  \citenamefont {Kochan}, \citenamefont {Fabian}, \citenamefont {Paradiso},\
+  and\ \citenamefont {Strunk}}]{Baumgartner2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Christian}\
+  \bibnamefont {Baumgartner}}, \bibinfo {author} {\bibfnamefont {Lorenz}\
+  \bibnamefont {Fuchs}}, \bibinfo {author} {\bibfnamefont {Andreas}\
+  \bibnamefont {Costa}}, \bibinfo {author} {\bibfnamefont {Simon}\ \bibnamefont
+  {Reinhardt}}, \bibinfo {author} {\bibfnamefont {Sergei}\ \bibnamefont
+  {Gronin}}, \bibinfo {author} {\bibfnamefont {Geoffrey~C.}\ \bibnamefont
+  {Gardner}}, \bibinfo {author} {\bibfnamefont {Tyler}\ \bibnamefont
+  {Lindemann}}, \bibinfo {author} {\bibfnamefont {Michael~J.}\ \bibnamefont
+  {Manfra}}, \bibinfo {author} {\bibfnamefont {Paulo~E.}\ \bibnamefont
+  {Faria~Junior}}, \bibinfo {author} {\bibfnamefont {Denis}\ \bibnamefont
+  {Kochan}}, \bibinfo {author} {\bibfnamefont {Jaroslav}\ \bibnamefont
+  {Fabian}}, \bibinfo {author} {\bibfnamefont {Nicola}\ \bibnamefont
+  {Paradiso}}, \ and\ \bibinfo {author} {\bibfnamefont {Christoph}\
+  \bibnamefont {Strunk}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Supercurrent rectification and magnetochiral effects in symmetric josephson
+  junctions},}\ }\href {\doibase 10.1038/s41565-021-01009-9} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Nanotechnology}\ }\textbf {\bibinfo
+  {volume} {17}},\ \bibinfo {pages} {39--44} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wu}\ \emph {et~al.}(2022)\citenamefont {Wu},
+  \citenamefont {Wang}, \citenamefont {Xu}, \citenamefont {Sivakumar},
+  \citenamefont {Pasco}, \citenamefont {Filippozzi}, \citenamefont {Parkin},
+  \citenamefont {Zeng}, \citenamefont {McQueen},\ and\ \citenamefont
+  {Ali}}]{Wu2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Heng}\ \bibnamefont
+  {Wu}}, \bibinfo {author} {\bibfnamefont {Yaojia}\ \bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {Yuanfeng}\ \bibnamefont {Xu}}, \bibinfo
+  {author} {\bibfnamefont {Pranava~K.}\ \bibnamefont {Sivakumar}}, \bibinfo
+  {author} {\bibfnamefont {Chris}\ \bibnamefont {Pasco}}, \bibinfo {author}
+  {\bibfnamefont {Ulderico}\ \bibnamefont {Filippozzi}}, \bibinfo {author}
+  {\bibfnamefont {Stuart S.~P.}\ \bibnamefont {Parkin}}, \bibinfo {author}
+  {\bibfnamefont {Yu-Jia}\ \bibnamefont {Zeng}}, \bibinfo {author}
+  {\bibfnamefont {Tyrel}\ \bibnamefont {McQueen}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {Mazhar~N.}\ \bibnamefont {Ali}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {The field-free josephson diode in a van der
+  waals heterostructure},}\ }\href {\doibase 10.1038/s41586-022-04504-8}
+  {\bibfield  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo
+  {volume} {604}},\ \bibinfo {pages} {653--656} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hoshino}\ \emph {et~al.}(2018)\citenamefont
+  {Hoshino}, \citenamefont {Wakatsuki}, \citenamefont {Hamamoto},\ and\
+  \citenamefont {Nagaosa}}]{Hoshino2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Shintaro}\
+  \bibnamefont {Hoshino}}, \bibinfo {author} {\bibfnamefont {Ryohei}\
+  \bibnamefont {Wakatsuki}}, \bibinfo {author} {\bibfnamefont {Keita}\
+  \bibnamefont {Hamamoto}}, \ and\ \bibinfo {author} {\bibfnamefont {Naoto}\
+  \bibnamefont {Nagaosa}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Nonreciprocal charge transport in two-dimensional noncentrosymmetric
+  superconductors},}\ }\href {\doibase 10.1103/PhysRevB.98.054510} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {98}},\ \bibinfo {pages} {054510} (\bibinfo {year} {2018})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Misaki}\ and\ \citenamefont
+  {Nagaosa}(2021)}]{Misaki2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kou}\ \bibnamefont
+  {Misaki}}\ and\ \bibinfo {author} {\bibfnamefont {Naoto}\ \bibnamefont
+  {Nagaosa}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Theory of the
+  nonreciprocal josephson effect},}\ }\href {\doibase
+  10.1103/PhysRevB.103.245302} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo {pages}
+  {245302} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kopasov}\ \emph {et~al.}(2021)\citenamefont
+  {Kopasov}, \citenamefont {Kutlin},\ and\ \citenamefont
+  {Mel'nikov}}]{Kopasov2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~A.}\ \bibnamefont
+  {Kopasov}}, \bibinfo {author} {\bibfnamefont {A.~G.}\ \bibnamefont {Kutlin}},
+  \ and\ \bibinfo {author} {\bibfnamefont {A.~S.}\ \bibnamefont {Mel'nikov}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Geometry controlled
+  superconducting diode and anomalous josephson effect triggered by the
+  topological phase transition in curved proximitized nanowires},}\ }\href
+  {\doibase 10.1103/PhysRevB.103.144520} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {103}},\ \bibinfo
+  {pages} {144520} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Daido}\ \emph {et~al.}(2022)\citenamefont {Daido},
+  \citenamefont {Ikeda},\ and\ \citenamefont {Yanase}}]{Daido2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Akito}\ \bibnamefont
+  {Daido}}, \bibinfo {author} {\bibfnamefont {Yuhei}\ \bibnamefont {Ikeda}}, \
+  and\ \bibinfo {author} {\bibfnamefont {Youichi}\ \bibnamefont {Yanase}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Intrinsic superconducting
+  diode effect},}\ }\href {\doibase 10.1103/PhysRevLett.128.037001} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {128}},\ \bibinfo {pages} {037001} (\bibinfo {year}
+  {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zinkl}\ \emph {et~al.}(2022)\citenamefont {Zinkl},
+  \citenamefont {Hamamoto},\ and\ \citenamefont {Sigrist}}]{Zinkl2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Bastian}\ \bibnamefont
+  {Zinkl}}, \bibinfo {author} {\bibfnamefont {Keita}\ \bibnamefont {Hamamoto}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Manfred}\ \bibnamefont {Sigrist}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Symmetry conditions for the
+  superconducting diode effect in chiral superconductors},}\ }\href {\doibase
+  10.1103/PhysRevResearch.4.033167} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Research}\ }\textbf {\bibinfo {volume} {4}},\ \bibinfo {pages}
+  {033167} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Davydova}\ \emph {et~al.}(2022)\citenamefont
+  {Davydova}, \citenamefont {Prembabu},\ and\ \citenamefont
+  {Fu}}]{Davydova2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Margarita}\
+  \bibnamefont {Davydova}}, \bibinfo {author} {\bibfnamefont {Saranesh}\
+  \bibnamefont {Prembabu}}, \ and\ \bibinfo {author} {\bibfnamefont {Liang}\
+  \bibnamefont {Fu}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Universal josephson diode effect},}\ }\href {\doibase
+  10.1126/sciadv.abo0309} {\bibfield  {journal} {\bibinfo  {journal} {Science
+  Advances}\ }\textbf {\bibinfo {volume} {8}},\ \bibinfo {pages} {eabo0309}
+  (\bibinfo {year} {2022})},\ \Eprint
+  {http://arxiv.org/abs/https://www.science.org/doi/pdf/10.1126/sciadv.abo0309}
+  {https://www.science.org/doi/pdf/10.1126/sciadv.abo0309} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Halterman}\ \emph {et~al.}(2022)\citenamefont
+  {Halterman}, \citenamefont {Alidoust}, \citenamefont {Smith},\ and\
+  \citenamefont {Starr}}]{Halterman2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Klaus}\ \bibnamefont
+  {Halterman}}, \bibinfo {author} {\bibfnamefont {Mohammad}\ \bibnamefont
+  {Alidoust}}, \bibinfo {author} {\bibfnamefont {Ross}\ \bibnamefont {Smith}},
+  \ and\ \bibinfo {author} {\bibfnamefont {Spencer}\ \bibnamefont {Starr}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Supercurrent diode effect,
+  spin torques, and robust zero-energy peak in planar half-metallic
+  trilayers},}\ }\href {\doibase 10.1103/PhysRevB.105.104508} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {105}},\ \bibinfo {pages} {104508} (\bibinfo {year} {2022})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Scammell}\ \emph {et~al.}(2022)\citenamefont
+  {Scammell}, \citenamefont {Li},\ and\ \citenamefont
+  {Scheurer}}]{Scammell2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Harley~D}\
+  \bibnamefont {Scammell}}, \bibinfo {author} {\bibfnamefont {J~I~A}\
+  \bibnamefont {Li}}, \ and\ \bibinfo {author} {\bibfnamefont {Mathias~S}\
+  \bibnamefont {Scheurer}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Theory of zero-field superconducting diode effect in twisted trilayer
+  graphene},}\ }\href {\doibase 10.1088/2053-1583/ac5b16} {\bibfield  {journal}
+  {\bibinfo  {journal} {2D Materials}\ }\textbf {\bibinfo {volume} {9}},\
+  \bibinfo {pages} {025027} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Yuan}\ and\ \citenamefont {Fu}(2022)}]{Yuan2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Noah F.~Q.}\
+  \bibnamefont {Yuan}}\ and\ \bibinfo {author} {\bibfnamefont {Liang}\
+  \bibnamefont {Fu}},\ }\bibfield  {title} {\enquote {\bibinfo {title}
+  {Supercurrent diode effect and finite-momentum superconductors},}\ }\href
+  {\doibase 10.1073/pnas.2119548119} {\bibfield  {journal} {\bibinfo  {journal}
+  {Proceedings of the National Academy of Sciences}\ }\textbf {\bibinfo
+  {volume} {119}},\ \bibinfo {pages} {e2119548119} (\bibinfo {year} {2022})},\
+  \Eprint
+  {http://arxiv.org/abs/https://www.pnas.org/doi/pdf/10.1073/pnas.2119548119}
+  {https://www.pnas.org/doi/pdf/10.1073/pnas.2119548119} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2022)\citenamefont {Zhang},
+  \citenamefont {Gu}, \citenamefont {Li}, \citenamefont {Hu},\ and\
+  \citenamefont {Jiang}}]{Zhang2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Yi}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {Yuhao}\ \bibnamefont {Gu}},
+  \bibinfo {author} {\bibfnamefont {Pengfei}\ \bibnamefont {Li}}, \bibinfo
+  {author} {\bibfnamefont {Jiangping}\ \bibnamefont {Hu}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Kun}\ \bibnamefont {Jiang}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {General theory of josephson diodes},}\ }\href
+  {\doibase 10.1103/PhysRevX.12.041013} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. X}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo
+  {pages} {041013} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhai}\ \emph {et~al.}(2022)\citenamefont {Zhai},
+  \citenamefont {Li}, \citenamefont {Wen}, \citenamefont {Wu},\ and\
+  \citenamefont {He}}]{Zhai2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Baoxing}\ \bibnamefont
+  {Zhai}}, \bibinfo {author} {\bibfnamefont {Bohao}\ \bibnamefont {Li}},
+  \bibinfo {author} {\bibfnamefont {Yao}\ \bibnamefont {Wen}}, \bibinfo
+  {author} {\bibfnamefont {Fengcheng}\ \bibnamefont {Wu}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Jun}\ \bibnamefont {He}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Prediction of ferroelectric superconductors with
+  reversible superconducting diode effect},}\ }\href {\doibase
+  10.1103/PhysRevB.106.L140505} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo {pages}
+  {L140505} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ili\ifmmode~\acute{c}\else \'{c}\fi{}}\ and\
+  \citenamefont {Bergeret}(2022)}]{Ilic2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Ili\ifmmode~\acute{c}\else \'{c}\fi{}}}\ and\ \bibinfo {author}
+  {\bibfnamefont {F.~S.}\ \bibnamefont {Bergeret}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {Theory of the supercurrent diode effect in
+  rashba superconductors with arbitrary disorder},}\ }\href {\doibase
+  10.1103/PhysRevLett.128.177001} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {128}},\ \bibinfo {pages}
+  {177001} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Tanaka}\ \emph {et~al.}(2022)\citenamefont {Tanaka},
+  \citenamefont {Lu},\ and\ \citenamefont {Nagaosa}}]{Tanaka2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Yukio}\ \bibnamefont
+  {Tanaka}}, \bibinfo {author} {\bibfnamefont {Bo}~\bibnamefont {Lu}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Naoto}\ \bibnamefont {Nagaosa}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Theory of diode effect in
+  d-wave superconductor junctions on the surface of topological insulator},}\
+  }\href {\doibase 10.48550/ARXIV.2205.13177} {\  (\bibinfo {year} {2022}),\
+  10.48550/ARXIV.2205.13177}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Hu}\ \emph {et~al.}(2007)\citenamefont {Hu},
+  \citenamefont {Wu},\ and\ \citenamefont {Dai}}]{Hu2007}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Jiangping}\
+  \bibnamefont {Hu}}, \bibinfo {author} {\bibfnamefont {Congjun}\ \bibnamefont
+  {Wu}}, \ and\ \bibinfo {author} {\bibfnamefont {Xi}~\bibnamefont {Dai}},\
+  }\bibfield  {title} {\enquote {\bibinfo {title} {Proposed design of a
+  josephson diode},}\ }\href {\doibase 10.1103/PhysRevLett.99.067004}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {99}},\ \bibinfo {pages} {067004} (\bibinfo {year}
+  {2007})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ghosh}\ \emph {et~al.}(2022)\citenamefont {Ghosh},
+  \citenamefont {Patil}, \citenamefont {Basu}, \citenamefont {{Kuldeep}},
+  \citenamefont {Jangade}, \citenamefont {Kulkarni}, \citenamefont
+  {Thamizhavel},\ and\ \citenamefont {Deshmukh}}]{Ghosh2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Sanat}\ \bibnamefont
+  {Ghosh}}, \bibinfo {author} {\bibfnamefont {Vilas}\ \bibnamefont {Patil}},
+  \bibinfo {author} {\bibfnamefont {Amit}\ \bibnamefont {Basu}}, \bibinfo
+  {author} {\bibnamefont {{Kuldeep}}}, \bibinfo {author} {\bibfnamefont
+  {Digambar~A.}\ \bibnamefont {Jangade}}, \bibinfo {author} {\bibfnamefont
+  {Ruta}\ \bibnamefont {Kulkarni}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {Thamizhavel}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {Mandar~M.}\ \bibnamefont {Deshmukh}},\ }\href {\doibase
+  10.48550/ARXIV.2210.11256} {\enquote {\bibinfo {title} {High-temperature
+  superconducting diode},}\ } (\bibinfo {year} {2022})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chiles}\ \emph {et~al.}(2022)\citenamefont {Chiles},
+  \citenamefont {Arnault}, \citenamefont {Chen}, \citenamefont {Larson},
+  \citenamefont {Zhao}, \citenamefont {Watanabe}, \citenamefont {Taniguchi},
+  \citenamefont {Amet},\ and\ \citenamefont {Finkelstein}}]{Chiles2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {John}\ \bibnamefont
+  {Chiles}}, \bibinfo {author} {\bibfnamefont {Ethan~G.}\ \bibnamefont
+  {Arnault}}, \bibinfo {author} {\bibfnamefont {Chun-Chia}\ \bibnamefont
+  {Chen}}, \bibinfo {author} {\bibfnamefont {Trevyn F.~Q.}\ \bibnamefont
+  {Larson}}, \bibinfo {author} {\bibfnamefont {Lingfei}\ \bibnamefont {Zhao}},
+  \bibinfo {author} {\bibfnamefont {Kenji}\ \bibnamefont {Watanabe}}, \bibinfo
+  {author} {\bibfnamefont {Takashi}\ \bibnamefont {Taniguchi}}, \bibinfo
+  {author} {\bibfnamefont {François}\ \bibnamefont {Amet}}, \ and\ \bibinfo
+  {author} {\bibfnamefont {Gleb}\ \bibnamefont {Finkelstein}},\ }\href
+  {\doibase 10.48550/ARXIV.2210.02644} {\enquote {\bibinfo {title}
+  {Non-reciprocal supercurrents in a field-free graphene josephson triode},}\ }
+  (\bibinfo {year} {2022})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fominov}\ and\ \citenamefont
+  {Mikhailov}(2022)}]{Fominov2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Ya.~V.}\ \bibnamefont
+  {Fominov}}\ and\ \bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont
+  {Mikhailov}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Asymmetric
+  higher-harmonic squid as a josephson diode},}\ }\href {\doibase
+  10.1103/PhysRevB.106.134514} {\bibfield  {journal} {\bibinfo  {journal}
+  {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {106}},\ \bibinfo {pages}
+  {134514} (\bibinfo {year} {2022})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Souto}\ \emph {et~al.}(2022)\citenamefont {Souto},
+  \citenamefont {Leijnse},\ and\ \citenamefont {Schrade}}]{Schrade2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Rubén~Seoane}\
+  \bibnamefont {Souto}}, \bibinfo {author} {\bibfnamefont {Martin}\
+  \bibnamefont {Leijnse}}, \ and\ \bibinfo {author} {\bibfnamefont
+  {Constantin}\ \bibnamefont {Schrade}},\ }\bibfield  {title} {\enquote
+  {\bibinfo {title} {The josephson diode effect in supercurrent
+  interferometers},}\ }\href {\doibase 10.48550/ARXIV.2205.04469} {\  (\bibinfo
+  {year} {2022}),\ 10.48550/ARXIV.2205.04469}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Frattini}\ \emph {et~al.}(2017)\citenamefont
+  {Frattini}, \citenamefont {Vool}, \citenamefont {Shankar}, \citenamefont
+  {Narla}, \citenamefont {Sliwa},\ and\ \citenamefont
+  {Devoret}}]{Frattini2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~E.}\ \bibnamefont
+  {Frattini}}, \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Vool}},
+  \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Shankar}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Narla}}, \bibinfo {author}
+  {\bibfnamefont {K.~M.}\ \bibnamefont {Sliwa}}, \ and\ \bibinfo {author}
+  {\bibfnamefont {M.~H.}\ \bibnamefont {Devoret}},\ }\bibfield  {title}
+  {\enquote {\bibinfo {title} {3-wave mixing josephson dipole element},}\
+  }\href {\doibase 10.1063/1.4984142} {\bibfield  {journal} {\bibinfo
+  {journal} {Applied Physics Letters}\ }\textbf {\bibinfo {volume} {110}},\
+  \bibinfo {pages} {222603} (\bibinfo {year} {2017})},\ \Eprint
+  {http://arxiv.org/abs/https://doi.org/10.1063/1.4984142}
+  {https://doi.org/10.1063/1.4984142} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Harris}\ \emph {et~al.}(2010)\citenamefont {Harris},
+  \citenamefont {Johansson}, \citenamefont {Berkley}, \citenamefont {Johnson},
+  \citenamefont {Lanting}, \citenamefont {Han}, \citenamefont {Bunyk},
+  \citenamefont {Ladizinsky}, \citenamefont {Oh}, \citenamefont {Perminov},
+  \citenamefont {Tolkacheva}, \citenamefont {Uchaikin}, \citenamefont
+  {Chapple}, \citenamefont {Enderud}, \citenamefont {Rich}, \citenamefont
+  {Thom}, \citenamefont {Wang}, \citenamefont {Wilson},\ and\ \citenamefont
+  {Rose}}]{DWave2010}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Harris}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Johansson}},
+  \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont {Berkley}}, \bibinfo
+  {author} {\bibfnamefont {M.~W.}\ \bibnamefont {Johnson}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Lanting}}, \bibinfo {author} {\bibfnamefont
+  {Siyuan}\ \bibnamefont {Han}}, \bibinfo {author} {\bibfnamefont
+  {P.}~\bibnamefont {Bunyk}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Ladizinsky}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Oh}}, \bibinfo {author} {\bibfnamefont {I.}~\bibnamefont
+  {Perminov}}, \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Tolkacheva}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Uchaikin}}, \bibinfo {author} {\bibfnamefont {E.~M.}\ \bibnamefont
+  {Chapple}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Enderud}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Rich}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Thom}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Wilson}}, \ and\ \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Rose}},\ }\bibfield  {title} {\enquote {\bibinfo {title} {Experimental
+  demonstration of a robust and scalable flux qubit},}\ }\href {\doibase
+  10.1103/PhysRevB.81.134510} {\bibfield  {journal} {\bibinfo  {journal} {Phys.
+  Rev. B}\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo {pages} {134510}
+  (\bibinfo {year} {2010})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Boothby}\ \emph {et~al.}(2021)\citenamefont
+  {Boothby}, \citenamefont {Enderud}, \citenamefont {Lanting}, \citenamefont
+  {Molavi}, \citenamefont {Tsai}, \citenamefont {Volkmann}, \citenamefont
+  {Altomare}, \citenamefont {Amin}, \citenamefont {Babcock}, \citenamefont
+  {Berkley}, \citenamefont {Aznar}, \citenamefont {Boschnak}, \citenamefont
+  {Christiani}, \citenamefont {Ejtemaee}, \citenamefont {Evert}, \citenamefont
+  {Gullen}, \citenamefont {Hager}, \citenamefont {Harris}, \citenamefont
+  {Hoskinson}, \citenamefont {Hilton}, \citenamefont {Jooya}, \citenamefont
+  {Huang}, \citenamefont {Johnson}, \citenamefont {King}, \citenamefont
+  {Ladizinsky}, \citenamefont {Li}, \citenamefont {MacDonald}, \citenamefont
+  {Fernandez}, \citenamefont {Neufeld}, \citenamefont {Norouzpour},
+  \citenamefont {Oh}, \citenamefont {Ozfidan}, \citenamefont {Paddon},
+  \citenamefont {Perminov}, \citenamefont {Poulin-Lamarre}, \citenamefont
+  {Prescott}, \citenamefont {Raymond}, \citenamefont {Reis}, \citenamefont
+  {Rich}, \citenamefont {Roy}, \citenamefont {Esfahani}, \citenamefont {Sato},
+  \citenamefont {Sheldan}, \citenamefont {Smirnov}, \citenamefont {Swenson},
+  \citenamefont {Whittaker}, \citenamefont {Yao}, \citenamefont {Yarovoy},\
+  and\ \citenamefont {Bunyk}}]{DWave2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Kelly}\ \bibnamefont
+  {Boothby}}, \bibinfo {author} {\bibfnamefont {Colin}\ \bibnamefont
+  {Enderud}}, \bibinfo {author} {\bibfnamefont {Trevor}\ \bibnamefont
+  {Lanting}}, \bibinfo {author} {\bibfnamefont {Reza}\ \bibnamefont {Molavi}},
+  \bibinfo {author} {\bibfnamefont {Nicholas}\ \bibnamefont {Tsai}}, \bibinfo
+  {author} {\bibfnamefont {Mark~H.}\ \bibnamefont {Volkmann}}, \bibinfo
+  {author} {\bibfnamefont {Fabio}\ \bibnamefont {Altomare}}, \bibinfo {author}
+  {\bibfnamefont {Mohammad~H.}\ \bibnamefont {Amin}}, \bibinfo {author}
+  {\bibfnamefont {Michael}\ \bibnamefont {Babcock}}, \bibinfo {author}
+  {\bibfnamefont {Andrew~J.}\ \bibnamefont {Berkley}}, \bibinfo {author}
+  {\bibfnamefont {Catia~Baron}\ \bibnamefont {Aznar}}, \bibinfo {author}
+  {\bibfnamefont {Martin}\ \bibnamefont {Boschnak}}, \bibinfo {author}
+  {\bibfnamefont {Holly}\ \bibnamefont {Christiani}}, \bibinfo {author}
+  {\bibfnamefont {Sara}\ \bibnamefont {Ejtemaee}}, \bibinfo {author}
+  {\bibfnamefont {Bram}\ \bibnamefont {Evert}}, \bibinfo {author}
+  {\bibfnamefont {Matthew}\ \bibnamefont {Gullen}}, \bibinfo {author}
+  {\bibfnamefont {Markus}\ \bibnamefont {Hager}}, \bibinfo {author}
+  {\bibfnamefont {Richard}\ \bibnamefont {Harris}}, \bibinfo {author}
+  {\bibfnamefont {Emile}\ \bibnamefont {Hoskinson}}, \bibinfo {author}
+  {\bibfnamefont {Jeremy~P.}\ \bibnamefont {Hilton}}, \bibinfo {author}
+  {\bibfnamefont {Kais}\ \bibnamefont {Jooya}}, \bibinfo {author}
+  {\bibfnamefont {Ann}\ \bibnamefont {Huang}}, \bibinfo {author} {\bibfnamefont
+  {Mark~W.}\ \bibnamefont {Johnson}}, \bibinfo {author} {\bibfnamefont
+  {Andrew~D.}\ \bibnamefont {King}}, \bibinfo {author} {\bibfnamefont {Eric}\
+  \bibnamefont {Ladizinsky}}, \bibinfo {author} {\bibfnamefont {Ryan}\
+  \bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont {Allison}\ \bibnamefont
+  {MacDonald}}, \bibinfo {author} {\bibfnamefont {Teresa~Medina}\ \bibnamefont
+  {Fernandez}}, \bibinfo {author} {\bibfnamefont {Richard}\ \bibnamefont
+  {Neufeld}}, \bibinfo {author} {\bibfnamefont {Mana}\ \bibnamefont
+  {Norouzpour}}, \bibinfo {author} {\bibfnamefont {Travis}\ \bibnamefont {Oh}},
+  \bibinfo {author} {\bibfnamefont {Isil}\ \bibnamefont {Ozfidan}}, \bibinfo
+  {author} {\bibfnamefont {Paul}\ \bibnamefont {Paddon}}, \bibinfo {author}
+  {\bibfnamefont {Ilya}\ \bibnamefont {Perminov}}, \bibinfo {author}
+  {\bibfnamefont {Gabriel}\ \bibnamefont {Poulin-Lamarre}}, \bibinfo {author}
+  {\bibfnamefont {Thomas}\ \bibnamefont {Prescott}}, \bibinfo {author}
+  {\bibfnamefont {Jack}\ \bibnamefont {Raymond}}, \bibinfo {author}
+  {\bibfnamefont {Mauricio}\ \bibnamefont {Reis}}, \bibinfo {author}
+  {\bibfnamefont {Chris}\ \bibnamefont {Rich}}, \bibinfo {author}
+  {\bibfnamefont {Aidan}\ \bibnamefont {Roy}}, \bibinfo {author} {\bibfnamefont
+  {Hossein~Sadeghi}\ \bibnamefont {Esfahani}}, \bibinfo {author} {\bibfnamefont
+  {Yuki}\ \bibnamefont {Sato}}, \bibinfo {author} {\bibfnamefont {Ben}\
+  \bibnamefont {Sheldan}}, \bibinfo {author} {\bibfnamefont {Anatoly}\
+  \bibnamefont {Smirnov}}, \bibinfo {author} {\bibfnamefont {Loren~J.}\
+  \bibnamefont {Swenson}}, \bibinfo {author} {\bibfnamefont {Jed}\ \bibnamefont
+  {Whittaker}}, \bibinfo {author} {\bibfnamefont {Jason}\ \bibnamefont {Yao}},
+  \bibinfo {author} {\bibfnamefont {Alexander}\ \bibnamefont {Yarovoy}}, \ and\
+  \bibinfo {author} {\bibfnamefont {Paul~I.}\ \bibnamefont {Bunyk}},\ }\href
+  {\doibase 10.48550/ARXIV.2108.02322} {\enquote {\bibinfo {title}
+  {Architectural considerations in the design of a third-generation
+  superconducting quantum annealing processor},}\ } (\bibinfo {year}
+  {2021})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gupta}\ \emph {et~al.}(2022)\citenamefont {Gupta},
+  \citenamefont {Graziano}, \citenamefont {Pendharkar}, \citenamefont {Dong},
+  \citenamefont {Dempsey}, \citenamefont {Palmstrøm},\ and\ \citenamefont
+  {Pribiag}}]{Gupta2022}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Mohit}\ \bibnamefont
+  {Gupta}}, \bibinfo {author} {\bibfnamefont {Gino~V.}\ \bibnamefont
+  {Graziano}}, \bibinfo {author} {\bibfnamefont {Mihir}\ \bibnamefont
+  {Pendharkar}}, \bibinfo {author} {\bibfnamefont {Jason~T.}\ \bibnamefont
+  {Dong}}, \bibinfo {author} {\bibfnamefont {Connor~P.}\ \bibnamefont
+  {Dempsey}}, \bibinfo {author} {\bibfnamefont {Chris}\ \bibnamefont
+  {Palmstrøm}}, \ and\ \bibinfo {author} {\bibfnamefont {Vlad~S.}\
+  \bibnamefont {Pribiag}},\ }\href {\doibase 10.48550/ARXIV.2206.08471}
+  {\enquote {\bibinfo {title} {Superconducting diode effect in a three-terminal
+  josephson device},}\ } (\bibinfo {year} {2022})\BibitemShut {NoStop}%
+\end{thebibliography}%
